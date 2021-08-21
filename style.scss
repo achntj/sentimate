@@ -18,20 +18,18 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $helvetica;
   color: $darkerGray;
   font-weight: bold;
 
@@ -66,18 +64,37 @@ h4 {
 
 p {
   margin: 15px 0;
+  line-height: 1.625em;
 }
 
 a {
-  color: $blue;
+  color: $darkerGray;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
+  cursor: pointer;
+  padding: 0 3px;
+  background-color: $lightGray;
+  border-radius: 3px;
+  &:hover,
+  &:active {
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+    text-decoration-color: #333;
   }
 }
 
-ul, ol {
+p a {
+  white-space: nowrap;
+}
+
+// Royal Links
+p > a{
+  color: $royal;
+}
+
+ul,
+ol {
   margin: 15px 0;
   padding-left: 30px;
 }
@@ -90,19 +107,25 @@ ol {
   list-style-type: decimal;
 }
 
-ol ul, ul ol, ul ul, ol ol {
+ol ul,
+ul ol,
+ul ul,
+ol ol {
   margin: 0;
 }
 
-ul ul, ol ul {
+ul ul,
+ol ul {
   list-style-type: circle;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
-strong, b {
+strong,
+b {
   font-weight: bold;
 }
 
@@ -113,11 +136,6 @@ img {
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
-}
-
-.date {
-  font-style: italic;
-  color: $gray;
 }
 
 // Specify the color of the selection
@@ -134,33 +152,36 @@ img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
 
-//
-// .masthead
-//
-
 .wrapper-masthead {
-  margin-bottom: 50px;
+  border-top: 3px solid $purple;
+  margin-bottom: 35px;
+  border-bottom: 2px solid $lightGray;
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  padding: 10px 0;
 
   @include mobile {
     text-align: center;
   }
+}
+
+.masthead a {
+  padding: 0px;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .site-avatar {
@@ -194,10 +215,10 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
+  font-family: $helvetica;
   font-size: 28px;
   letter-spacing: 1px;
+  font-weight: 700;
 }
 
 .site-description {
@@ -212,8 +233,8 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  margin-top: 13px; // @TODO: Vertically middle align
+  font-family: $helvetica;
   font-size: 18px;
 
   @include mobile {
@@ -227,23 +248,165 @@ nav {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 1px;
+
+    &:hover {
+      color: #118339;
+      transition-duration: 0.5s;
+    }
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
     }
   }
 }
 
-//
-// .main
-//
+/*********************/
+/* MY / CLASSES */
+/*********************/
 
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+.container {
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.img_div {
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
+  float: right;
+  overflow: hidden;
+  position: relative;
+  margin: 10px 0px 10px 0px;
+}
+
+@media (max-width: 300px) {
+  .img_div {
+    display: none;
+  }
+}
+
+.me_home {
+  box-shadow: none !important;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.meta {
+  color: $gray;
+}
+
+.hero {
+  padding-bottom: 20px;
+  border-bottom: 3px solid $lightGray;
+}
+
+.newsletter {
+  border-bottom: 2px solid $lightGray;
+  border-top: 2px solid $lightGray;
+}
+
+.newsletter_contents {
+  margin: 20px;
+}
+
+.email {
+  display: block;
+}
+
+.email_input {
+  font-size: 100%;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: $darkGray;
+  background: #fff;
+  box-shadow: 0 5px 12px -2px rgba(0, 0, 0, 0.4);
+  transform: none;
+  box-sizing: border-box;
+  border: 0;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 0;
+  text-decoration: none;
+}
+
+.button {
+  font-size: 100%;
+  display: inline-block;
+  transform: none;
+  box-sizing: border-box;
+  border: 0;
+  outline: none;
+  box-shadow: 0 5px 12px -2px rgba(0, 0, 0, 0.4);
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: $white;
+  cursor: pointer;
+  background-color: $purple;
+  border-radius: 3px;
+  &:hover,
+  &:active {
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+    text-decoration-color: $white;
+  }
+  @include mobile {
+    margin-top: 20px;
+  }
+}
+
+.post {
+  padding-bottom: 1em;
+  border-bottom: 2px solid $lightGray;
+  cursor: pointer;
+}
+
+.post a {
+  padding: 0px;
+  background-color: transparent;
+
+  &:hover,
+  &:active {
+    color: $darkerGray;
+    text-decoration: none;
+  }
+}
+
+.post-list{
+  margin-left: 10%;
+}
+
+.post-list a {
+  white-space: normal;
+}
+
+.span_header {
+  color: $darkerGray;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.entry img {
+  box-shadow: 0 5px 12px -2px rgba(0, 0, 0, 0.4);
+  display: block;
+  margin: 0px auto;
+}
+
+img + em {
+  display: block;
+  text-align: center;
+  margin: 20px;
+  color: $gray;
 }
 
 .posts > .post:last-child {
@@ -251,39 +414,52 @@ nav {
   border-bottom: none;
 }
 
-.post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
-
-  .comments {
-    margin-top: 10px;
-  }
-
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
-  }
+blockquote {
+  margin: 1.8em 0.8em;
+  border-left: 5px solid #efefef;
+  padding: 0.1em 1em;
+  color: $gray;
+  font-size: 22px;
+  font-style: italic;
 }
 
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+.post-description {
+  color: $gray;
 }
+
+// .wrapper-footer {
+//   margin-top: 50px;
+//   border-top: 1px solid #ddd;
+//   border-bottom: 1px solid #ddd;
+//   background-color: $lightGray;
+// }
 
 footer {
-  padding: 20px 0;
-  text-align: center;
+  font-style: italic;
+  margin: 30px auto 0px auto;
+  max-width: 650px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.footer_container {
+  border-top: 3px solid $lightGray;
+  padding: 20px 10px;
+}
+
+.post-nav {
+  padding-top: 10px;
+}
+
+.prev-post {
+  text-align: left;
+}
+
+.next-post {
+  text-align: right;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
-@import "svg-icons";
+// @import "svg-icons";
