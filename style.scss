@@ -465,7 +465,7 @@ button {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   box-shadow: 0 0px 15px #2020203d;
-  background: white url("night.png");
+  background: white url("images/night.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -482,7 +482,7 @@ input:checked + .slider:before {
   -webkit-transform: translateX(24px);
   -ms-transform: translateX(24px);
   transform: translateX(24px);
-  background: white url("sunny.png");
+  background: white url("images/sunny.png");
   background-repeat: no-repeat;
   background-position: center;
 }
