@@ -23,26 +23,24 @@ $white: #fff;
 .theme-light {
   --color-bg: #fff;
   --color-text: #333;
-  --color-text-secondary: #222;
+  --color-secondary: black;
   --color-tertiary: #666;
-  // --color-accent: #5e03fc;
-  --color-accent: #2046ee;
+  --color-accent: #2196f3;
   --color-accent-secondary: #5e03fc;
   --color-selection: #000;
   --color-highlight: #eee;
-  --color-code: #282a36;
+  --color-text-secondary: #444;
 }
 .theme-dark {
-  // --color-bg: #272b38;
-  --color-bg: #1f2126;
+  --color-bg: #202124;
   --color-text: #bbb;
-  --color-text-secondary: #e8e4e0;
+  --color-secondary: #e8e4e0;
   --color-tertiary: #828282;
-  --color-accent: #ca6d56;
+  --color-accent: #709680;
   --color-accent-secondary: #ca6d56;
   --color-selection: #ca6d56;
   --color-highlight: #333;
-  --color-code: #efefef;
+  --color-text-secondary: black;
 }
 
 // Font stacks
