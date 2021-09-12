@@ -32,11 +32,9 @@ Achintya Jha is a class 12 student at Ahlcon International School, where he is s
 
 This project uses 2 separate models for predictions. Both models are based on separate datasets, and do best when used together. The first model uses a general dataset containing 1.6 million tweets, while the other dataset has over 20 thousand tweets which are specifically scraped so as to be related to depression. Together, these datasets have been used for training 2 sets of vocabularies, and subsequently, training 2 models. Of all suitable machine learning models for this project, Logistic Regression, performs the best.
 
-
 So, with 2 custom vocabularies and logistic regression models, this model, classifies the text into positive and negative categories.
 However, as you might expect, there is a lot more going on than that. The language processing and feature engineering methods used have been
 covered in depth in my paper, which I will be releasing soon.
-
 
 If you still wish to know more, consider dropping an email at -
 [achintyakjha] at [gmail] dot [com].
