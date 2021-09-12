@@ -2,143 +2,67 @@
 layout: default
 ---
 
-<!-- Mashead header-->
-<header class="masthead">
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-6">
-                <!-- Mashead text and app badges-->
-                <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                    <h1 class="display-1 lh-1 mb-3">Get on top of your mental health</h1>
-                    <p class="lead fw-normal text-muted mb-5">Using our free natural language processing service, that can detect depression!</p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <img style="margin-bottom: 45px; max-width: 100%; max-height: 100%;" src="{{ site.baseurl }}/images/laptop-app.png" alt="">
-            </div>
-        </div>
+  <h1>About The Project</h1>
+  <p>
+    SentiMate is a suite of tools that have been developed to fight depression. We have developed a 
+    <a href="/model">machine learning model</a>, that can detect depression using textual data, for example tweets. We have also 
+    built a micro-blogging web-app, <a href="https://stuclan.ml">StuClan</a>, that provides a platform for students to talk about 
+    specific topics like mental health, education and much more. With these platforms especially
+    dedicated to students, SentiMate aims to bring an end to depression.
+  </p>
+  <div class="image-container">
+    <img src="{{ url_for('static', filename='smile.png') }}" alt="Smiley">
+  </div>
+  <em>“ Peace begins with a smile.” — Mother Teresa.</em>
+  <!-- <div class="info"> 
+    <li class="listItem" id="l1">Do you ever have those days where no matter how much you force yourself to do things you still feel awful</li>
+    <div class="tooltip">
+      <button onclick="myFunction('l1')">
+        <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+        Copy
+      </button>
     </div>
-</header>
-<!-- Quote/testimonial aside-->
-<aside class="text-center bg-gradient-primary-to-secondary">
-    <div class="container px-5">
-        <div class="row gx-5 justify-content-center">
-            <div class="col-xl-8">
-                <div class="h2 fs-1 text-white mb-4">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</div>
-                <img src="{{ site.baseurl }}/assets/img/tnw-logo.svg" alt="..." style="height: 3rem" />
-            </div>
-        </div>
-    </div>
-</aside>
-<!-- App features section-->
-<section id="features">
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
-                <div class="container-fluid px-5">
-                    <div class="row gx-5">
-                        <div class="col-md-6 mb-5">
-                            <!-- Feature item-->
-                            <div class="text-center">
-                                <i class="bi-phone icon-feature text-gradient d-block mb-3"></i>
-                                <h3 class="font-alt">Device Aware</h3>
-                                <p class="text-muted mb-0">We have optimised the website to work on all devices, tell us your experience!</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-5">
-                            <!-- Feature item-->
-                            <div class="text-center">
-                                <i class="bi-currency-dollar icon-feature text-gradient d-block mb-3"></i>
-                                <h3 class="font-alt">Free to Use</h3>
-                                <p class="text-muted mb-0">Again, the whole idea is to make this technology more accessible; therefore, without a doubt, you can use it for free!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 mb-5 mb-md-0">
-                            <!-- Feature item-->
-                            <div class="text-center">
-                                <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
-                                <h3 class="font-alt">Interactive</h3>
-                                <p class="text-muted mb-0">Since we have put all the technical stuff aside, you are in for a treat!</p> 
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <!-- Feature item-->
-                            <div class="text-center">
-                                <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
-                                <h3 class="font-alt">Accurate</h3>
-                                <p class="text-muted mb-0">With an accuracy of over 96%, the model predicts quite well!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 order-lg-0">
-                <!-- Features section device mockup-->
-                <div class="features-device-mockup">
-                    <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                            <linearGradient id="circleGradient" gradientTransform="rotate(45)">
-                                <stop class="gradient-start-color" offset="0%"></stop>
-                                <stop class="gradient-end-color" offset="100%"></stop>
-                            </linearGradient>
-                        </defs>
-                        <circle cx="50" cy="50" r="50"></circle></svg><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
-                        <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
-                    <div class="device-wrapper">
-                        <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-                            <div class="screen bg-black">
-                                <!-- PUT CONTENTS HERE:-->
-                                <!-- * * This can be a video, image, or just about anything else.-->
-                                <!-- * * Set the max width of your media to 100% and the height to-->
-                                <!-- * * 100% like the demo example below.-->
-                                <img src="{{ site.baseurl }}/images/phone.png" style="max-width: 100%; height: 100%" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Basic features section-->
-<section class="bg-light">
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
-            <div class="col-12 col-lg-5">
-                <h2 class="display-4 lh-1 mb-4">Enter a new age of web design</h2>
-                <p class="lead fw-normal text-muted mb-5 mb-lg-0">This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.</p>
-            </div>
-            <div class="col-sm-8 col-md-6">
-                <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="https://source.unsplash.com/u8Jn2rzYIps/900x900" alt="..." /></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Call to action section-->
-<section class="cta">
-    <div class="cta-content">
-        <div class="container px-5">
-            <h2 class="text-white display-1 lh-1 mb-4">
-                Stop waiting.
-                <br />
-                Start building.
-            </h2>
-            <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age" target="_blank">Download for free</a>
-        </div>
-    </div>
-</section>
-<!-- App badge section-->
-<section class="bg-gradient-primary-to-secondary" id="download">
-    <div class="container px-5">
-        <h2 class="text-center text-white font-alt mb-4">Check out now!</h2>
-        <p class="text-center">
-            <a href="https://sentimate.herokuapp.com/">
-                <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0">Let's Go!</button>
-            </a>
-        </p>
-    </div>
-</section>
-        
+  </div> -->
+
+  <div class="info">
+    <p>
+      Sentiment Analysis is popular among natural language processing (NLP) researchers,
+      but depression detection using NLP is not as common. Furthermore, there exists no
+      depression detection system, that can identify depressed users on social media
+      using just text. SentiMate does that. This web interface is based on multiple machine learning and NLP
+      models, all developed by me, to make a system that can detect depression with an
+      accuracy over 96%. This makes the model not only unique, but also accurate for our purpose.
+      <br />
+    </p>
+    <h2>Why SentiMate?</h2>
+    <p>
+      Apart from great accuracy, the model performs well on real world data as well. 
+      Below are some sample tweets that <a target="_blank" href="https://www.healthline.com/health/depression/tweets-what-depression-feels-like">"capture what depression feels like"</a> and the 
+      model does an excellent job in correctly identifying them.
+      <ul>
+        <em>Do you ever have those days where no matter how much you force yourself to do things you still feel awful</em>
+        <em>every day i begin from feeling worthless and proceed from there</em>
+        <em>i'm sad</em>
+        <em>dude, life is depressing</em>
+        <em>even after all this i’m still afraid of sadness</em>
+        <em>she died as she lived…wondering whether she was tired or dying</em>
+      </ul>
+      <p>(Source- <a target="_blank" href="https://www.healthline.com/health/depression/tweets-what-depression-feels-like">Healthline</a>)</p>
+    </p>
+    <p>
+      <br />
+      Nevertheless, this tool is not a substitute to consulting professional help. 
+      The objective of this tool is provide quick and accurate identification of 
+      depression for free, based on which one may consult therapists and doctors.
+      <br />
+    </p>
+  </div>
+    
+  <p>
+    <a class="links" href="/model">Here</a> is a brief description of this
+    project.
+    <br />
+    For more information on this project, you can contact me at
+    [achintyakjha] at [gmail] dot [com].
+  </p>
+  
