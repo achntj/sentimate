@@ -7,8 +7,8 @@ permalink: /about/
 ## About the Project
 
 Today, more than [250 million](https://www.who.int/news-room/fact-sheets/detail/depression#:~:text=Depression%20is%20a%20common%20mental,overall%20global%20burden%20of%20disease.)
-people suffer from depression. And it is apparent that there are many more people who might be suffering from
-depression but either don't know that yet or don't believe it. Mental Health Awareness is crucial for tackling this, and so is a way to accurately and efficiently detect depression within seconds. SentiMate, short for 'Sentiment Mate', is a machine learning model that can identify depression using text with an accuracy of over 96%. SentiMate doesn't come as a replacement of professionals in this field, but it complements them. By detecting the likelihood of depression, users can contact therapists and doctors to understand the problem as well as the
+people suffer from depression. And it is apparent that there are many more people who might be suffering from depression but either don't know that yet or don't believe it. Mental Health Awareness is crucial for tackling this, and so is a way to accurately and efficiently detect depression within seconds.
+SentiMate, short for 'Sentiment Mate', is a machine learning model that can identify depression using text with an accuracy of over 96%. SentiMate doesn't come as a replacement of professionals in this field, but it complements them. By detecting the likelihood of depression, users can contact therapists and doctors to understand the problem as well as the
 way out.
 
 ## The Idea
