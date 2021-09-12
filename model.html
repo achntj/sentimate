@@ -1,5 +1,7 @@
-{% extends "layout.html" %}
-{% block content %}
+---
+layout: default
+---
+
   <p>
     This webpage provides a tool for
     identifying sentiments across texts as "Likely Depressed" or otherwise.
@@ -13,37 +15,12 @@
     text at all. The model handles that pretty well!
   </p>
 
-  <div class="card">
-    <div class="search">
-      <form autocomplete="off" action="{{ url_for('predict')}}" method="post">
-        <input
-          required
-          type="text"
-          name="tweet"
-          class="search-bar"
-          placeholder="Enter a tweet"
-        />
-        <button type="submit" class="button">Predict</button>
-      </form>
-    </div>
-    <div class="output">
-      <p>
-        <b>Result: </b>{{result}}
-        <br />
-        <b>Probability: </b>{{probability}}
-      </p>
-      <span>
-        v.25 &copy; Design and Development by
-        <a href="https://achintyajha.com/" target="_blank">Achintya Jha</a>
-      </span>
-    </div>
-  </div>
 
   <div class="info">
     <p style="color: rgb(250, 92, 92);"><strong>Note: </strong> It might take some time to view the results 
   initially, especially if the website has been idle for too long. 
   However, subsequent predictions will be much faster.</p>
 
-  <p>Learn more about the model <a href="/about">here.</a></p>
+  <p>Learn more about the model <a href="{{ site.baseurl }}/about">here.</a></p>
   </div>  
-{% endblock content %}
+
