@@ -9,7 +9,6 @@ permalink: /about/
 Today, more than [250 million](https://www.who.int/news-room/fact-sheets/detail/depression#:~:text=Depression%20is%20a%20common%20mental,overall%20global%20burden%20of%20disease.)
 people suffer from depression. And it is apparent that there are many more people who might be suffering from
 depression but either don't know that yet or don't believe it. Mental Health Awareness is crucial for tackling this, and so is a way to accurately and efficiently detect depression within seconds.
-
 SentiMate, short for 'Sentiment Mate', is a machine learning model that can identify depression using text with an
 accuracy of over 96%. SentiMate doesn't come as a replacement of professionals in this field, but it complements them.
 By detecting the likelihood of depression, users can contact therapists and doctors to understand the problem as well as the
@@ -23,9 +22,7 @@ mental health as well. I wrote [this](https://zenonco.io/healing-circle-talks-wi
 article, which summarised Dr. Vidhya Nair's talk on the relation between Cancer and Mental Health.
 Mental Health affects our recovery from diseases and it is necessary to stay happy and mentally strong during
 these times.
-
 And as discussed earlier, it is important to detect depression before any further harm. Therefore, I looked up a few ways to detect depression and other causes of poor mental health, but all I found was a bunch of surveys that predicted the results based on the number of "positive" answers, i.e, answers that could be associated with depression.
-
 I started SentiMate as a research project that focused on finding a better way to detect depression. After about 6 months, I finished writing a 15 page paper on my research (publishing soon), and had a model ready; I then deployed the model with a few adjustments, which is now available at [this]({{ site.baseurl }}/model) page. The concept of this model is too replace traditional surveys with a more logical and efficient approach.
 
 ---
@@ -42,22 +39,16 @@ Achintya Jha is a class 12 student at Ahlcon International School, where he is s
 
 ## Development
 
-This project uses 2 separate models for predictions. Both models are
-based on separate datasets, and do best when used together. The first
-model uses a general dataset containing 1.6 million tweets, while the
-other dataset has over 20 thousand tweets which are specifically scraped
-so as to be related to depression. Together, these datasets have been
-used for training 2 sets of vocabularies, and subsequently, training 2
-models. Of all suitable machine learning models for this project,
-Logistic Regression, performs the best.
-<br />
-<br />
+This project uses 2 separate models for predictions. Both models are based on separate datasets, and do best when used together. The first model uses a general dataset containing 1.6 million tweets, while the other dataset has over 20 thousand tweets which are specifically scraped so as to be related to depression. Together, these datasets have been
+used for training 2 sets of vocabularies, and subsequently, training 2 models. Of all suitable machine learning models for this project, Logistic Regression, performs the best.
+
+
 So, with 2 custom vocabularies and logistic regression models, this
 model, classifies the text into positive and negative categories.
 However, as you might expect, there is a lot more going on than that.
 The language processing and feature engineering methods used have been
 covered in depth in my paper, which I will be releasing soon.
-<br />
-<br />
+
+
 If you still wish to know more, consider dropping an email at -
 [achintyakjha] at [gmail] dot [com].
