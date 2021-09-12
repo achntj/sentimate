@@ -1,77 +1,39 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
-    />
+<html lang="en">
+  <head>
+    <title>
+      {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}
+    </title>
 
-    <!-- SEO -->
-    <meta name="description" content="SentiMate is a suite of tools that have been developed 
-    to fight depression. We have developed a machine learning model, that can detect depression 
-    among text, for example tweets." />
-    <meta property="og:description" content="SentiMate is a suite of tools that have been developed 
-    to fight depression. We have developed a machine learning model, that can detect depression 
-    among text, for example tweets." />
+    {% include meta.html %}
 
-    <meta name="author" content="Achintya Jha - SentiMate" />
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-    {% if title %}
-        <title>{{ title }} - SentiMate</title>
-        <meta property="og:title" content="{{ title }} - SentiMate" />
-        <meta property="twitter:title" content="{{ title }} - SentiMate" />
-    {% else %}
-        <title>SentiMate</title>
-    {% endif %}
+    <link rel="shortcut icon" href="{{ site.baseurl }}/images/icon.jpeg" />
 
-    <meta property="og:locale" content="en-us" />
 
-    <link rel="canonical" href="https://sentimate.herokuapp.com/" />
-    <meta property="og:url" content="https://sentimate.herokuapp.com/" />
-    <meta property="og:site_name" content="SentiMate" />
-    <meta name="twitter:card" content="summary" />
-    <meta property="twitter:title" content="SentiMate" />
-
-    <!-- End SEO -->
-
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NQS6ZFJ');</script>
-<!-- End Google Tag Manager -->
-
-    <link
-      rel="shortcut icon"
-      href="{{ url_for('static', filename='logo.png') }}"
-    />
     <link
       rel="stylesheet"
-      href="{{ url_for('static', filename='style.css') }}"
+      type="text/css"
+      href="{{ site.baseurl }}/style.css"
     />
-    <script src="{{ url_for('static', filename='index.js') }}" defer></script>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ site.name }} - {{ site.description }}"
+      href="{{ site.baseurl }}/feed.xml"
+    />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YRM7E6LCEG"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());   
+    <script src="{{ site.baseurl }}/script.js" defer></script>
 
-      gtag('config', 'G-YRM7E6LCEG');
-    </script>
-</head>
-<body>
+    {% seo %}
+    {% include analytics.html %}
+  </head>
 
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQS6ZFJ"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-  <div class="wrapper-masthead">
+  <body>
+    <div class="wrapper-masthead">
         <header class="masthead clearfix">
 
           <div class="site-info">
@@ -103,11 +65,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </header>
     </div>
 
-
-  <div class="container">
+    <div class="container">
     {% block content %}
 
     {% endblock %}
   </div>
-</body>
+  
+  </body>
 </html>
