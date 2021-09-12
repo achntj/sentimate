@@ -161,6 +161,13 @@ img {
   color: var(--color-tertiary);
 }
 
+img + em {
+  display: block;
+  text-align: center;
+  margin: 20px;
+  color: $gray;
+}
+
 .entry img {
   text-align: center;
   margin-left: auto;

@@ -22,8 +22,7 @@ these times. And as discussed earlier, it is important to detect depression befo
 ## The Founder
 
 ![]({{ site.baseurl }}/images/me.jpeg)
-
-### Founder, Achintya Jha
+_Founder, Achintya Jha_
 
 Achintya Jha is a class 12 student at Ahlcon International School, where he is studying Science along with Computer Science. He is also the academic secretary of the Student Council and part of the organizing team of various annual CS events held in the school.He believes that innovations and ideas must be made accessible to all at minimum costs. He has developed [StuClan](https://stuclan.ml) and [SentiMate](https://sentimate.herokuapp.com/) after close to 2 years of research.He aims to make these platforms available to everyone for zero cost, and for this, he is working on scaling this project further. He would be beyond grateful, if you could [share](https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fsentimate.herokuapp.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=Guys%20have%20a%20look%20at%20SentiMate!!%20It%20can%20detect%20depression%20using%20text!!&url=https%3A%2F%2Fsentimate.herokuapp.com&via=achintyajha05)this website with your friends.
 
