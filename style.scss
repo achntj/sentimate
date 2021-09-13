@@ -377,10 +377,12 @@ h1.temp {
   height: 100vh;
   padding: 100px 0;
   font-size: 120%;
+  display: flex;
 }
 
 .hero-contents {
-  padding-top: 80px;
+  flex: 1.6
+  // padding-top: 80px;
 }
 
 .hero h1 {
@@ -388,6 +390,7 @@ h1.temp {
 }
 
 .hero-img {
+  flex: 0.4;
   float: right;
   max-width: 300px;
 }
