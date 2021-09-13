@@ -373,6 +373,20 @@ h1.temp {
   float: left;
 }
 
+.hero {
+  height: 100vh;
+  padding: 200px 0;
+  font-size: 120%;
+}
+
+.hero h1 {
+  font-size: 150%;
+}
+
+.hero img {
+  float: right;
+}
+
 /*********************/
 /* BUTTON */
 /*********************/
