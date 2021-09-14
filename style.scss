@@ -391,7 +391,9 @@ h1.temp {
 }
 
 .hero h1 {
-  font-size: 150%;
+  font-size: 200%;
+  line-height: 1.2;
+
 }
 
 .hero-img {
@@ -532,6 +534,9 @@ input:checked + .slider:before {
 }
 
 @media screen and (max-width: 640px) {
+  .hero h1{
+    font-size: 100%
+  }
   .card {
     width: auto;
   }
