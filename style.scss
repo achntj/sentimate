@@ -204,6 +204,7 @@ img + em {
 /*********************/
 
 .wrapper-masthead {
+  border-bottom: 2px solid var(--color-highlight);
   background-color: var(--color-bg);
   position: fixed;
   top: 0;
@@ -536,7 +537,7 @@ input:checked + .slider:before {
 
 @media screen and (max-width: 640px) {
   .hero h1{
-    font-size: 100%
+    font-size: 200%
   }
   .card {
     width: auto;
@@ -558,12 +559,14 @@ input:checked + .slider:before {
     display: block;
     margin: 0 auto;
   }
+  .hero-img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .wrapper-masthead {
     padding: 0;
-    margin-top: 20px;
   }
   nav a {
     margin-left: 11px;
@@ -575,6 +578,9 @@ input:checked + .slider:before {
   .image-container + em {
     margin: 20px 0;
     font-size: 90%;
+  }
+  .hero h1{
+    font-size: 150%
   }
 }
 
