@@ -377,7 +377,7 @@ h1.temp {
 }
 
 .hero {
-  padding-top: 100px;
+  height: 100vh
   font-size: 120%;
   display: flex;
 }
@@ -397,11 +397,11 @@ h1.temp {
   line-height: 1.2;
 }
 
-// .hero-img {
-//   flex: 0.4;
-//   float: right;
-//   max-width: 300px;
-// }
+.hero-img {
+  flex: 0.4;
+  float: right;
+  max-width: 300px;
+}
 
 /*********************/
 /* BUTTON */
@@ -539,9 +539,6 @@ input:checked + .slider:before {
     height: auto;
     padding: 0;
   }
-  .hero h1{
-    font-size: 200%
-  }
   .card {
     width: auto;
   }
@@ -562,9 +559,9 @@ input:checked + .slider:before {
     display: block;
     margin: 0 auto;
   }
-  // .hero-img {
-  //   display: none;
-  // }
+  .hero-img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 400px) {
