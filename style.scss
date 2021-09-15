@@ -290,6 +290,7 @@ body {
 
 body > .container {
   padding: 0 20px;
+  padding-top: 100px;
 }
 
 h1,
@@ -397,11 +398,11 @@ h1.temp {
 
 }
 
-.hero-img {
-  flex: 0.4;
-  float: right;
-  max-width: 300px;
-}
+// .hero-img {
+//   flex: 0.4;
+//   float: right;
+//   max-width: 300px;
+// }
 
 /*********************/
 /* BUTTON */
@@ -562,9 +563,9 @@ input:checked + .slider:before {
     display: block;
     margin: 0 auto;
   }
-  .hero-img {
-    display: none;
-  }
+  // .hero-img {
+  //   display: none;
+  // }
 }
 
 @media screen and (max-width: 400px) {
