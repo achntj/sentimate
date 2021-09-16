@@ -204,6 +204,8 @@ img + em {
 /*********************/
 
 .wrapper-masthead {
+  max-width: 1300px;
+  margin: 0 auto;
   border-bottom: 2px solid var(--color-highlight);
   background-color: var(--color-bg);
   position: fixed;
