@@ -414,6 +414,15 @@ h1.temp {
   margin-right: 50px;
 }
 
+.recog-item a {
+  display: flex;
+}
+
+.recog-item a:hover, a:active {
+  text-decoration: none;
+  transition-duration: 0;
+}
+
 /*********************/
 /* BUTTON */
 /*********************/
