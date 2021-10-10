@@ -565,6 +565,22 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+@media screen and (max-width: 950px) {
+  .recog-item {
+    padding: 0;
+  }
+  .recog-item a {
+    display: block;
+  }
+  .recog-item p {
+    line-height: normal;
+    text-align: inherit;
+  }
+  .recognitions hr {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .hero {
     height: auto;
@@ -592,19 +608,6 @@ input:checked + .slider:before {
   }
   .hero-img {
     display: none;
-  }
-  .recog-item {
-    padding: 0;
-  }
-  .recog-item a {
-    display: block;
-  }
-  .recog-item p {
-    line-height: normal;
-    text-align: inherit;
-  }
-  .recognitions hr {
-    display: block;
   }
 }
 
