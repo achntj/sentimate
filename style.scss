@@ -405,7 +405,6 @@ h1.temp {
 }
 
 .recog-item {
-  display: flex;
   padding: 20px;
 }
 
@@ -589,6 +588,16 @@ input:checked + .slider:before {
   }
   .hero-img {
     display: none;
+  }
+  .recog-item {
+    padding: 0;
+  }
+  .recog-item a {
+    display: block;
+  }
+  .recog-item p {
+    line-height: normal;
+    text-align: inherit;
   }
 }
 
