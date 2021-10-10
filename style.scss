@@ -406,10 +406,12 @@ h1.temp {
 
 .recog-item {
   display: flex;
+  padding: 20px;
 }
 
 .recog-item img {
-  width: 200px;
+  width: 50%;
+  margin-right: 50px;
 }
 
 /*********************/
