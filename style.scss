@@ -404,6 +404,10 @@ h1.temp {
   max-width: 300px;
 }
 
+.recognitions hr {
+    display: none;
+}
+
 .recog-item {
   padding: 20px;
 }
@@ -598,6 +602,9 @@ input:checked + .slider:before {
   .recog-item p {
     line-height: normal;
     text-align: inherit;
+  }
+  .recognitions hr {
+    display: block;
   }
 }
 
