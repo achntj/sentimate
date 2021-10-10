@@ -410,13 +410,20 @@ h1.temp {
 }
 
 .recog-item img {
-  width: 50%;
+  // width: 50%;
+  max-width: 200px;
   margin-right: 50px;
 }
 
 .recog-item a {
   display: flex;
   padding: 0;
+  background-color: transparent;
+}
+
+.recog-item p {
+  line-height: 100px;
+  text-align: center;
 }
 
 .recog-item a:hover, a:active {
