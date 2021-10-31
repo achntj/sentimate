@@ -467,6 +467,7 @@ h1.temp {
 
 .topnav a:not(:first-child) {
   float: right;
+  color: var(--color-accent-secondary);
 }
 
 .topnav a {
