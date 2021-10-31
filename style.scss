@@ -463,7 +463,10 @@ h1.temp {
 
 .topnav {
   overflow: hidden;
-  background-color: #eee;
+}
+
+.topnav a:not(:first-child) {
+  float: right;
 }
 
 .topnav a {
@@ -475,12 +478,8 @@ h1.temp {
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  color: #118339;
+  transition-duration: 0.5s;
 }
 
 .topnav .icon {
@@ -488,6 +487,12 @@ h1.temp {
 }
 
 @media screen and (max-width: 600px) {
+  .topnav {
+    background-color: #eee;
+  }
+  .topnav a:not(:first-child) {
+    float: none;
+  }
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
