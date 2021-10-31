@@ -22,7 +22,8 @@ He would be beyond grateful, if you could [share](https://twitter.com/intent/twe
 ## Our Team Members
 
 <div class="member">
-    <h2>Ziyoda Alimatova</h3>
+    <h2>Ziyoda Alimatova</h2>
+    <h3>Mental Health Volunteer & STEM Advocate</h3>
     <p>
     She is a high school student from Uzbekistan, who truly loves bringing an impact to the community,see them improving, and making them happy. She cares for the society and makes sure to always contribute as much as she can. Teaching is one among the many initiatives she has taken; she recently volunteered as a teacher for middle school children. Her interest in STEM subjects draws her towards SentiMate, where STEM is leveraged to solve societal problems. She hopes to use her knowledge and skills to help those in need.
     </p>
@@ -30,18 +31,20 @@ He would be beyond grateful, if you could [share](https://twitter.com/intent/twe
 </div>
 
 <div class="member">
-    <h2>Juman Maher Mohammed Said Alsayeh</h3>
+    <h2>Juman Maher Mohammed Said Alsayeh</h2>
+    <h3>Senior Researcher & Contributor</h3>
     <p>
     Juman Alsayeh is a grade 9 student at Almorooj Secondary School, Jordan. She is a very organized person and she always makes an effort to help the society. Currently, she is learning the sign language.
     Outside of SentiMate, she leads her team at the Junior academy and is interested in research, analysis, and problem-solving.
-    She is deeply concerned about the problems around mental health and through SentiMate she aims to help in revealing varios problems and stigmas in the society and solve them.
+    She is deeply concerned about the problems around mental health and through SentiMate, she aims to help in revealing varios problems and stigmas in the society and find solutions for them.
     </p>
     <img class="member-img" src="/images/juman.jpeg">
 </div>
 
 <div class="member">
-    <h2>Ziyoda Alimatova</h3>
+    <h2>Sabare Victor</h2>
+    <h3>Head of Outreach & Mental Health Advocate</h3>
     <p>
-   </p>
-   <img class="member-img" src="/images/sabare.jpeg">
+    </p>
+    <img class="member-img" src="/images/sabare.jpeg">
 </div>
