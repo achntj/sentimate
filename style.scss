@@ -248,11 +248,12 @@ nav {
 }
 
 nav a {
-    margin-left: 20px;
+    // margin-left: 20px;
     color: var(--color-accent-secondary);
     text-align: right;
     font-weight: 600;
     letter-spacing: 1px;
+    border-radius: 0;
 
 }
 
@@ -491,7 +492,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .topnav a {
+    .topnav a:not(:first-child) {
         display: none;
     }
     .topnav button.icon {

@@ -45,25 +45,18 @@
   <body>
     <div class="wrapper-masthead">
         <header class="masthead clearfix">
-
-          <div class="site-info">
-            <p class="site-name">
-              <a class="site-name" href="/">
-                SentiMate
-              </a>
-              <!-- <span class="container">
-                <label id="switch" class="switch">
-                  <input type="checkbox" onchange="toggleTheme()" id="slider" />
-                  <span class="slider round"></span>
-                </label>
-              </span> -->
-            </p>
-          </div>
           
           <nav class="topnav" id="topnav">
+            <a href="/">
+            <div class="site-info">
+              <p class="site-name">
+                  SentiMate
+              </p>
+            </div>
+            </a>
             <a href={{ link }}>The Model</a>
             <a href="https://talk.sentimate.ml">Talk</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/about">About Us</a>
             <a href="{{ site.baseurl }}/blog">Blog</a>
             <a href="{{ site.baseurl }}/our-team">Our Team</a>
             <button class="icon" onclick="toggle()"><i class="fa fa-bars"></i></button>
