@@ -246,8 +246,8 @@ nav {
   font-size: 18px;
 }
 
-nav a {
-    margin-left: 20px;
+.topnav a {
+    // margin-left: 20px;
     color: var(--color-accent-secondary);
     text-align: right;
     font-weight: 600;
@@ -476,7 +476,7 @@ h1.temp {
   padding: 14px 16px;
 }
 
-.topnav a:hover {
+.topnav a:not(:first-child):hover {
   background-color: #ddd;
   color: #118339;
   transition-duration: 0.5s;
