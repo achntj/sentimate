@@ -246,7 +246,7 @@ nav {
   font-size: 18px;
 }
 
-.topnav a {
+.topnav a:not(:first-child) {
     // margin-left: 20px;
     color: var(--color-accent-secondary);
     text-align: right;
@@ -291,7 +291,7 @@ body {
 
 body > .container {
   padding: 0 20px;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 h1,
@@ -469,7 +469,7 @@ h1.temp {
   float: right;
 }
 
-.topnav a {
+.topnav  {
   float: left;
   display: block;
   text-align: center;
