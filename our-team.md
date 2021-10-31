@@ -6,7 +6,6 @@ permalink: /our-team/
 
 # Our Team
 <br>
-<br>
 <div class="member">
     <img src="/images/me.jpeg">
     <h2>Achintya Jha</h2>
