@@ -439,6 +439,8 @@ h1.temp {
 }
 
 .member img {
+  object-fit: contain;
+  max-height: 300px;
   float: right;
   margin-left: 30px;
 }
