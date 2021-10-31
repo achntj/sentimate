@@ -46,7 +46,7 @@
     <div class="wrapper-masthead">
         <header class="masthead clearfix">
 
-          <div class="site-info">
+          {{/*  <div class="site-info">
             <p class="site-name">
               <a class="site-name" href="/">
                 SentiMate
@@ -67,7 +67,20 @@
             <a href="{{ site.baseurl }}/blog">Blog</a>
             <a href="{{ site.baseurl }}/our-team">Our Team</a>
             <button class="icon" onclick="toggle()"><i class="fa fa-bars"></i></button>
+          </nav>  */}}
+
+          <nav class="topnav" id="topnav">
+            <a href="/" class="logo">
+              SentiMate
+            </a>
+            <a href={{ link }}>The Model</a>
+            <a href="https://talk.sentimate.ml">Talk</a>
+            <a href="{{ site.baseurl }}/about">About Us</a>
+            <a href="{{ site.baseurl }}/blog">Blog</a>
+            <a href="{{ site.baseurl }}/our-team">Our Team</a>
+            <button class="icon" onclick="toggle()"><i class="fa fa-bars"></i></button>
           </nav>
+
 
         </header>
     </div>

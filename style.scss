@@ -248,12 +248,11 @@ nav {
 }
 
 nav a {
-    // margin-left: 20px;
+    margin-left: 20px;
     color: var(--color-accent-secondary);
     text-align: right;
     font-weight: 600;
     letter-spacing: 1px;
-    border-radius: 0;
 
 }
 
@@ -486,13 +485,31 @@ body {
             color: black;
         }
     }
+    .logo {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 7px 10px 3px 10px;
+        margin-top: 2px;
+        text-decoration: none;
+        font-size: 17px;
+
+        img {
+            width: 30px;
+            height: auto;
+        }
+        &:hover {
+            background: transparent;
+        }
+    }
     button {
         display: none;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .topnav a {
+    .topnav a:not(:first-child) {
         display: none;
     }
     .topnav button.icon {
