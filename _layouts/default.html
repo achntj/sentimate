@@ -27,7 +27,8 @@
        
     {% include variables.html %}
 
-    <!-- <script src="{{ site.baseurl }}/script.js" defer></script> -->
+    <script src="{{ site.baseurl }}/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     {% seo %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -59,13 +60,15 @@
             </p>
           </div>
           
-          <nav>
+          <nav class="topnav" id="topnav">
             <a href={{ link }}>The Model</a>
             <a href="https://talk.sentimate.ml">Talk</a>
             <a href="{{ site.baseurl }}/about">About</a>
             <a href="{{ site.baseurl }}/blog">Blog</a>
             <a href="{{ site.baseurl }}/our-team">Our Team</a>
+            <button class="icon" onclick="toggle()"><i class="fa fa-bars"></i></button>
           </nav>
+
         </header>
     </div>
 
