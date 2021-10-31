@@ -656,6 +656,15 @@ input:checked + .slider:before {
   .hero h1{
     font-size: 200%
   }
+  .member img {
+    width: 60%;
+    float: none;
+    margin-left: 0px;
+    max-width: none;
+  }
+  .member h3 {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 358px) {
