@@ -246,8 +246,8 @@ nav {
   font-size: 18px;
 }
 
-.topnav a:not(:first-child) {
-    // margin-left: 20px;
+nav a {
+    margin-left: 20px;
     color: var(--color-accent-secondary);
     text-align: right;
     font-weight: 600;
@@ -469,7 +469,7 @@ h1.temp {
   float: right;
 }
 
-.topnav  {
+.topnav a {
   float: left;
   display: block;
   text-align: center;
