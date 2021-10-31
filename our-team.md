@@ -22,31 +22,29 @@ He would be beyond grateful, if you could [share](https://twitter.com/intent/twe
 ## Our Team Members
 
 <div class="member">
-
-### Ziyoda Alimatova
-
-![]({{ site.baseurl }}/images/ziyoda.jpeg)
-_Volunteer and Advocate_
-
-She is a high school student from Uzbekistan, who truly loves bringing an impact to the community,see them improving, and making them happy. She cares for the society and makes sure to always contribute as much as she can. Teaching is one among the many initiatives she has taken; she recently volunteered as a teacher for middle school children. Her interest in STEM subjects draws her towards SentiMate, where STEM is leveraged to solve societal problems. She hopes to use her knowledge and skills to help those in need.
+    <h3>Ziyoda Alimatova</h3>
+    <img src="/images/ziyoda.jpeg">
+    <em>Volunteer and Advocate</em>
+    <p>
+    She is a high school student from Uzbekistan, who truly loves bringing an impact to the community,see them improving, and making them happy. She cares for the society and makes sure to always contribute as much as she can. Teaching is one among the many initiatives she has taken; she recently volunteered as a teacher for middle school children. Her interest in STEM subjects draws her towards SentiMate, where STEM is leveraged to solve societal problems. She hopes to use her knowledge and skills to help those in need.
+    </p>
 </div>
 
 <div class="member">
-
-### Juman Maher Mohammed Said Alsayeh
-
-![]({{ site.baseurl }}/images/juman.jpeg)
-_Volunteer and Advocate_
-
-Juman Alsayeh is a grade 9 student at Almorooj Secondary School, Jordan. She is a very organized person and she always makes an effort to help the society. Currently, she is learning the sign language.
-Outside of SentiMate, she leads her team at the Junior academy and is interested in research, analysis, and problem-solving.
-She is deeply concerned about the problems around mental health and through SentiMate she aims to help in revealing varios problems and stigmas in the society and solve them!
+    <h3>Juman Maher Mohammed Said Alsayeh</h3>
+    <img src="/images/juman.jpeg">
+    <em>Volunteer and Advocate</em>
+    <p>
+    Juman Alsayeh is a grade 9 student at Almorooj Secondary School, Jordan. She is a very organized person and she always makes an effort to help the society. Currently, she is learning the sign language.
+    Outside of SentiMate, she leads her team at the Junior academy and is interested in research, analysis, and problem-solving.
+    She is deeply concerned about the problems around mental health and through SentiMate she aims to help in revealing varios problems and stigmas in the society and solve them.
+    </p>
 </div>
 
 <div class="member">
-
-### Sabare Victor
-
-![]({{ site.baseurl }}/images/sabare.jpeg)
-_Volunteer and Advocate_
+    <h3>Ziyoda Alimatova</h3>
+    <img src="/images/sabare.jpeg">
+    <em>Volunteer and Advocate</em>
+    <p>
+   </p>
 </div>
