@@ -25,8 +25,10 @@
 // })();
 
 const toggle = () => {
-  const nav = document.getElementById("topnav");
-  nav.className === "topnav"
-    ? (nav.className += " responsive")
-    : (nav.className = "topnav");
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 };
