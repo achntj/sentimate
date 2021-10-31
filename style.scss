@@ -206,7 +206,7 @@ img + em {
 .wrapper-masthead {
   max-width: 1300px;
   margin: 0 auto;
-  border-bottom: 2px solid var(--color-highlight);
+  // border-bottom: 2px solid var(--color-highlight);
   background-color: var(--color-bg);
   position: fixed;
   top: 0;
@@ -218,9 +218,9 @@ img + em {
   /* border-bottom: 2px solid var( --color-highlight); */
 }
 
-.masthead {
-  padding: 10px 0;
-}
+// .masthead {
+//   padding: 10px 0;
+// }
 
 .masthead a {
   padding: 0px;
@@ -463,7 +463,7 @@ h1.temp {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #eee;
 }
 
 .topnav a {
