@@ -449,6 +449,13 @@ h1.temp {
   margin-left: 30px;
 }
 
+.member + hr {
+  margin: 2em 0.5em;
+  height: 0;
+  border-style: none;
+  border-top: 2px solid var(--color-tertiary);
+}
+
 /*********************/
 /* BUTTON */
 /*********************/
