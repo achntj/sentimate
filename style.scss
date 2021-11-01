@@ -477,7 +477,7 @@ h1.temp {
   padding: 14px 16px;
 }
 
-.topnav a:not(:first-child):hover {
+.right-nav a:hover {
   background-color: #ddd;
   color: #118339;
   transition-duration: 0.5s;
@@ -488,14 +488,20 @@ h1.temp {
 }
 
 .right-nav {
+  padding-top: 8px;
   float: right;
 }
 
-@media screen and (max-width: 600px) {
+.icon {
+  padding: 20px;
+}
+
+@media screen and (max-width: 800px) {
   .topnav {
     background-color: #eee;
   }
   .right-nav {
+    padding-top: 0;
     float: none;
   }
   .right-nav a {
@@ -513,7 +519,7 @@ h1.temp {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
