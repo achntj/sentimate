@@ -465,7 +465,7 @@ h1.temp {
   overflow: hidden;
 }
 
-.topnav a:not(:first-child) {
+.right-nav a {
   color: var(--color-accent-secondary);
   padding-top: 20px;
 }
@@ -495,7 +495,7 @@ h1.temp {
   .topnav {
     background-color: #eee;
   }
-  .topnav a:not(:first-child) {
+  .right-nav {
     float: none;
   }
   .topnav a:not(:first-child) {display: none;}
