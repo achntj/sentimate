@@ -291,7 +291,7 @@ body {
 
 body > .container {
   padding: 0 20px;
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 h1,
@@ -466,8 +466,8 @@ h1.temp {
 }
 
 .topnav a:not(:first-child) {
-  float: right;
   color: var(--color-accent-secondary);
+  padding-top: 20px;
 }
 
 .topnav a {
@@ -487,6 +487,10 @@ h1.temp {
   display: none;
 }
 
+.right-nav {
+  float: right;
+}
+
 @media screen and (max-width: 600px) {
   .topnav {
     background-color: #eee;
@@ -498,6 +502,12 @@ h1.temp {
   .topnav a.icon {
     float: right;
     display: block;
+  }
+  body > .container {
+    padding-top: 60px;
+  }
+  .wrapper-masthead {
+    padding: 0;
   }
 }
 
@@ -693,9 +703,6 @@ input:checked + .slider:before {
 }
 
 @media screen and (max-width: 400px) {
-  .wrapper-masthead {
-    padding: 0;
-  }
   nav a {
     margin-left: 11px;
     color: var(--color-accent-secondary);
