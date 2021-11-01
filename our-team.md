@@ -42,5 +42,15 @@ permalink: /our-team/
     <h2>Sabare Victor</h2>
     <h3>Head of Outreach & Mental Health Advocate</h3>
     <p>
+    Sabare Victor is a grade 12 student at Alliance High School, Kenya where he is studying the sciences along with Computer Science. He is one who is passionate about new technologies and how availability of vast data makes these possibilities true. His passion for tech has seen him through rigorous online Data science and Artificial Intelligence courses. He hopes to one day become an A.I. professional, dealing mostly with health data and research. His interest in mental health is because he believes that data can be used for good to transform people's lives and to improve the productivity of this generation. He hopes to make people more aware of the importance of mental health in this age of data revolution.
+    </p>
+</div>
+<hr>
+<div class="member">
+    <img class="member-img" src="/images/yiwei.jpeg">
+    <h2>YiWei Hu</h2>
+    <h3>Head of Outreach & Mental Health Advocate</h3>
+    <p>
+    YiWei Hu is a grade 11 student at Shanghai World Foreign Language Academy. He's persistent in things that he pursue and he is now working on the programs to innovate creative ways to utilize sustainable energies to help solve the global challenge issues. He's a passion on dealing with global issues about sustainability using inter-disciplinary knowledge.  He's now working on the Junior Academy and is fond of problem-solving and paper researching to collaborate with others to handle the challenge. He's deeply motivated to be a person with profound views.
     </p>
 </div>
