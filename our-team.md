@@ -51,6 +51,6 @@ permalink: /our-team/
     <h2>YiWei Hu</h2>
     <h3>Head of Outreach & Mental Health Advocate</h3>
     <p>
-    YiWei Hu is a grade 11 student at Shanghai World Foreign Language Academy. He's persistent in things that he pursue and he is now working on the programs to innovate creative ways to utilize sustainable energies to help solve the global challenge issues. He's a passion on dealing with global issues about sustainability using inter-disciplinary knowledge.  He's now working on the Junior Academy and is fond of problem-solving and paper researching to collaborate with others to handle the challenge. He's deeply motivated to be a person with profound views.
+    YiWei Hu is a grade 11 student at Shanghai World Foreign Language Academy. He's persistent in things that he pursues and he is now working on programs to innovate creative ways to utilize sustainable energies and help solve the global challenges. He's passionate about dealing with global issues about sustainability using inter-disciplinary knowledge.  He's now working on the Junior Academy and is fond of problem-solving and deep-studying academic research to collaborate with others to handle these challenges. He's deeply motivated to be a person with profound views.
     </p>
 </div>
