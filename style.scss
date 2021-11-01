@@ -484,6 +484,7 @@ h1.temp {
 }
 
 .topnav .icon {
+  padding: 18px;
   display: none;
 }
 
@@ -524,7 +525,7 @@ h1.temp {
   .topnav.responsive .icon {
     position: absolute;
     right: 0px;
-    top: 8px;
+    top: 0px;
   }
   .topnav.responsive a {
     float: none;
