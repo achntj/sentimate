@@ -8,7 +8,6 @@ permalink: /blog/
   <h1>Posts</h1>
   {% for post in site.posts %} {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %} {% unless forloop.first %}{% endunless %}
-  <h2 id="y{{post.date | date: '%Y'}}">{{ currentdate }}</h2>
     {% assign date = currentdate %} {% endif %}
       <p class="post-list">
         <b>
