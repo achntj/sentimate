@@ -9,6 +9,6 @@ If you wish to contribute either by writing for this blog, getting feedback from
 
 **Note:** Applications for content writering are now open! Find the link [here](https://forms.gle/jSrrTJcHF7syCJDf7)!
 
-[Link to the form][1]
+[Link to the general form][1]
 
 [1]: https://forms.gle/WH3qZvpo6BmqiYD77

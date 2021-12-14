@@ -14,8 +14,10 @@ way out.
 
 ## The Idea
 
-During Achintya's time as a volunteer at [Zenonco](https://zenonco.io) ("The World’s First Integrative Oncology Healthtech Platform"), I got to know that patients suffering from cancer constantly faced bad mental health, and most of the times never knew about it. I wrote [this](https://zenonco.io/healing-circle-talks-with-dr-vidhya-nair) article, which summarised Dr. Vidhya Nair's talk on the relation between Cancer and Mental Health. Mental Health affects our recovery from diseases and it is necessary to stay happy and mentally strong during
+During my time as a volunteer at [Zenonco](https://zenonco.io) ("The World’s First Integrative Oncology Healthtech Platform"), I got to know that patients suffering from cancer constantly faced bad mental health, and most of the times never knew about it. I wrote [this](https://zenonco.io/healing-circle-talks-with-dr-vidhya-nair) article, which summarised Dr. Vidhya Nair's talk on the relation between Cancer and Mental Health. Mental Health affects our recovery from diseases and it is necessary to stay happy and mentally strong during
 these times. Thus, a tool to detect depression is essential; So, I looked up a few ways to detect depression and other causes of poor mental health, but all I found was a bunch of **_surveys_** that predicted the results based on the number of "positive" answers, i.e, answers that could be associated with depression. I started SentiMate as a research project that aimed to find a better way to detect depression. After about 6 months, I finished writing a 15 page paper on my research (publishing soon), and had a model ready; I then deployed the model with a few adjustments, which is now available online. The concept of this model is to replace traditional surveys with a more logical and efficient approach.
+
+_~Achintya Jha_
 
 ---
 
@@ -28,7 +30,7 @@ _Founder, Achintya Jha_
 
 He has worked as a research intern at companies like Tech Mahindra and has volunteered at organisations like SEETalks, HappyPlus, ZenOnco and many others. For him, these experiences have revealed various problems and stigmas in the society, including mental health, and have encouraged him to come up with innovative solutions.
 
-He would be beyond grateful, if you could [share](https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fsentimate.ml%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=Guys%20have%20a%20look%20at%20SentiMate!!%20It%20can%20detect%20depression%20using%20text!!&url=https%3A%2F%2Fsentimate.ml&via=achintyajha05)this website with your friends or send your feedback about the model and StuClan.
+He would be beyond grateful, if you could [share](https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fsentimate.ml%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=Guys%20have%20a%20look%20at%20SentiMate!!%20It%20can%20detect%20depression%20using%20text!!&url=https%3A%2F%2Fsentimate.ml&via=achintyajha05) this website with your friends or send your feedback about the model and StuClan.
 
 ---
 
