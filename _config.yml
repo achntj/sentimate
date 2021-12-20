@@ -11,6 +11,19 @@ description: Website and blog of Sentimate, a natural language processing based 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/achintyajha/sentimate/master/images/smile.png
 
+# Collections
+collections:
+  authors:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+
 #
 # Flags below are optional
 #

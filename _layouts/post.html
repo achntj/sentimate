@@ -4,10 +4,12 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
+  <p>
+    {% assign author = site.authors | where: 'short_name', page.author | first
+    %} {% if author %} - <a href="{{ author.url }}">{{ author.name }}</a>
+    {% endif %}
+  </p>
 
-  <div class="entry">
-    {{ content }}
-  </div>
-  <hr>
-
+  <div class="entry">{{ content }}</div>
+  <hr />
 </article>
