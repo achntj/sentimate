@@ -6,6 +6,8 @@ permalink: /our-team/
 
 # Our Team
 
+To read more about the authors on our blog, visit [Writers](/writers)
+
 <br>
 <div class="member">
     <img src="/images/me.jpeg">
