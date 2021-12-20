@@ -5,7 +5,7 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
   <p>
-    {% assign author = site.authors | where: 'short_name', page.author | first
+    {% assign author = site.writers | where: 'short_name', page.author | first
     %} {% if author %} - <a href="{{ author.url }}">{{ author.name }}</a>
     {% endif %}
   </p>

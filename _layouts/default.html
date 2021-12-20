@@ -24,49 +24,54 @@
       title="{{ site.name }} - {{ site.description }}"
       href="{{ site.baseurl }}/feed.xml"
     />
-       
-    {% include variables.html %}
+    {% seo %} {% include variables.html %}
 
     <script src="{{ site.baseurl }}/script.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    {% seo %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGYLGWRMC5"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-QGYLGWRMC5"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-QGYLGWRMC5');
+      gtag("config", "G-QGYLGWRMC5");
     </script>
   </head>
 
   <body>
     <div class="wrapper-masthead">
-        <header class="masthead clearfix">
-
-          <div class="topnav" id="myTopnav">
-            <a class="site-name" href="/">Senti<span style="color: #5e03fc">Mate</span></a>
-            <div class="right-nav">
-              <a href={{ link }}>The Model</a>
-              <a href="https://talk.sentimate.ml">Talk</a>
-              <a href="{{ site.baseurl }}/about">About Us</a>
-              <a href="{{ site.baseurl }}/blog">Blog</a>
-              <a href="{{ site.baseurl }}/our-team">Our Team</a>
-            </div>
-            <button class="icon" onclick="toggle()"><i class="fa fa-bars"></i></button>
-              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-              </a>
+      <header class="masthead clearfix">
+        <div class="topnav" id="myTopnav">
+          <a class="site-name" href="/"
+            >Senti<span style="color: #5e03fc">Mate</span></a
+          >
+          <div class="right-nav">
+            <a href="{{ link }}">The Model</a>
+            <a href="https://talk.sentimate.ml">Talk</a>
+            <a href="{{ site.baseurl }}/about">About Us</a>
+            <a href="{{ site.baseurl }}/blog">Blog</a>
+            <a href="{{ site.baseurl }}/our-team">Our Team</a>
           </div>
-
-        </header>
+          <button class="icon" onclick="toggle()">
+            <i class="fa fa-bars"></i>
+          </button>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </header>
     </div>
 
-    <div class="container">
-        {{ content }}
-    </div>    
-
+    <div class="container">{{ content }}</div>
   </body>
 </html>

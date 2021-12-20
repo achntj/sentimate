@@ -92,15 +92,16 @@ a {
   background-color: var(--color-highlight);
 }
 
-a:hover, a:active {
-    text-decoration: underline;
-    transition-duration: 0.5s;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 2px;
-    text-decoration-color: var(--color-accent);
-  }
+a:hover,
+a:active {
+  text-decoration: underline;
+  transition-duration: 0.5s;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--color-accent);
+}
 
-p > a{
+p > a {
   color: var(--color-accent);
 }
 
@@ -244,17 +245,16 @@ nav {
 }
 
 nav a {
-    margin-left: 20px;
-    color: var(--color-accent-secondary);
-    text-align: right;
-    font-weight: 600;
-    letter-spacing: 1px;
-
+  margin-left: 20px;
+  color: var(--color-accent-secondary);
+  text-align: right;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 nav a:hover {
-      color: #118339;
-      transition-duration: 0.5s;
+  color: #118339;
+  transition-duration: 0.5s;
 }
 
 .container {
@@ -300,6 +300,11 @@ h3 {
 /*********************/
 /* MY / CLASSES */
 /*********************/
+
+.author-link h2 a {
+  color: var(--color-accent-secondary);
+  background-color: transparent;
+}
 
 .info {
   border-bottom: 2px solid var(--color-highlight);
@@ -380,7 +385,7 @@ h1.temp {
 }
 
 .hero-contents {
-  flex: 1.6
+  flex: 1.6;
   // padding-top: 80px;
 }
 
@@ -401,7 +406,7 @@ h1.temp {
 }
 
 .recognitions hr {
-    display: none;
+  display: none;
 }
 
 .recog-item {
@@ -425,7 +430,8 @@ h1.temp {
   text-align: center;
 }
 
-.recog-item a:hover, a:active {
+.recog-item a:hover,
+a:active {
   text-decoration: none;
   transition-duration: 0;
 }
@@ -456,7 +462,6 @@ h1.temp {
   border-style: none;
   border-top: 1px solid var(--color-tertiary);
 }
-
 
 .topnav {
   overflow: hidden;
@@ -518,7 +523,9 @@ h1.temp {
 }
 
 @media screen and (max-width: 800px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0px;
@@ -720,8 +727,8 @@ input:checked + .slider:before {
     margin: 20px 0;
     font-size: 90%;
   }
-  .hero h1{
-    font-size: 200%
+  .hero h1 {
+    font-size: 200%;
   }
   .member img {
     width: 60%;
@@ -744,6 +751,6 @@ input:checked + .slider:before {
     margin-left: 0;
   }
   .switch {
-       margin: 10px;
+    margin: 10px;
   }
 }

@@ -6,12 +6,19 @@ permalink: /writers/
 
 <h1>Writers</h1>
 
-<ul>
-  {% for author in site.authors %}
-  <li>
-    <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-    <h3>{{ author.position }}</h3>
+<ul class="author-link">
+  {% for author in site.writers %}
+  <div class="member">
+    <img src="{{author.pic}}" alt="" />
+    <li>
+      <h2>
+        <a href="{{ author.url }}">{{ author.name }} | {{ author.position }}</a>
+      </h2>
+    </li>
     <p>{{ author.content | markdownify }}</p>
-  </li>
+    For more information, see
+    <a href="{{ author.url }}">{{author.short_name}}'s page</a>
+  </div>
+
   {% endfor %}
 </ul>
