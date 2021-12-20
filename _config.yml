@@ -92,9 +92,6 @@ gems:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag # seo
 
-plugins:
-  - jekyll-seo-tag
-
 # Exclude these files from your production _site
 exclude:
   - Gemfile
