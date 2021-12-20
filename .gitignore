@@ -9,4 +9,4 @@ Gemfile.lock
 node_modules
 package.json
 archives
-.jekyll-cache
+.jekyll-cache/
