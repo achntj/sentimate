@@ -170,11 +170,9 @@ img + em {
 }
 
 .entry img {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  max-width: 35%;
+  box-shadow: 0 5px 12px -2px rgba(0, 0, 0, 0.4);
+  display: block;
+  margin: 0px auto;
 }
 
 .gmnoprint img {
