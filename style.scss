@@ -89,16 +89,16 @@ a {
   border-radius: 3px;
   color: var(--color-text-secondary);
   text-decoration: none;
-  background-color: var(--color-highlight);
+  // background-color: var(--color-highlight);
 }
 
 a:hover,
 a:active {
-  text-decoration: underline;
+  color: #2046ee;
+  // text-decoration: underline;
   transition-duration: 0.5s;
   text-decoration-thickness: 2px;
   text-underline-offset: 2px;
-  text-decoration-color: var(--color-accent);
 }
 
 p > a {
@@ -238,6 +238,9 @@ img + em {
   font-size: 28px;
   letter-spacing: 1px;
   font-weight: 700;
+  &:hover {
+    color: black;
+  }
 }
 
 nav {
@@ -497,6 +500,10 @@ a:active {
 
 .icon {
   padding: 20px;
+}
+
+.post-list a {
+  background-color: var(--color-highlight);
 }
 
 @media screen and (max-width: 800px) {

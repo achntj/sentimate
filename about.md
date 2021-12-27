@@ -19,12 +19,12 @@ these times. Thus, a tool to detect depression is essential; So, I looked up a f
 
 _~Achintya Jha_
 
----
+<!-- ---
 
 ## Our Founder
 
 ![]({{ site.baseurl }}/images/me.jpeg)
-_Founder, Achintya Jha_
+_Founder & Developer, Achintya Jha_
 
 [Achintya Jha](https://achintyajha.in) is a class 12 student at Ahlcon International School, where he is studying the sciences along with Computer Science. He believes that innovation and ideas must be made accessible to all at no costs, and he is working to accomplish the same. His experience with tech has allowed him to develop solutions in the intersection of tech and society. He has developed [StuClan](https://talk.sentimate.ml) and [SentiMate](https://sentimate.ml) after close to 2 years of research and aims to make these platforms available to everyone, for which, he is working on scaling this project further.
 
@@ -33,6 +33,20 @@ He has worked as a research intern at companies like Tech Mahindra and has volun
 He would be beyond grateful, if you could [share](https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fsentimate.ml%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=Guys%20have%20a%20look%20at%20SentiMate!!%20It%20can%20detect%20depression%20using%20text!!&url=https%3A%2F%2Fsentimate.ml&via=achintyajha05) this website with your friends or send your feedback about the model and StuClan.
 
 ---
+
+## Director of Operations
+
+![]({{ site.baseurl }}/images/ishaan.jpeg)
+_Ishaan Shaurya Chamoli_
+
+[Ishaan](www.linkedin.com/in/ishaanchamoli) is a junior year student at Ridge Valley School from Gurgaon, India working towards combining his interest in Computer Science (especially Artificial Intelligence) and urge to help society with the limitless possibilities he believes AI can achieve.
+He loves to innovate and bring his ideas to life with the hopes of making as much of an impact as possible!
+
+His initial interest in solving problems faced across the world, including mental health, started as he was exposed to discussions and research on global problems combatted by the United Nations through over 4 years and 50+ conferences of participation in Model UN as a Delegate, Trainer, and Collegiate Chairperson. That’s when he began solving the problems that touched him most with the help of technology and artificial intelligence.
+
+Recently, Ishaan has also been conferred with Intel’s Global AI Enthusiast Award representing India as part of the International Top 10 Innovations for societal development from over 30 participating nations, alongside being a Global Finalist and the Country Winner for his idea on Refugee Relocation through AI Mapping.
+In the past, he has also been invited to the prestigious Indian Institute of Technology (IIT), Kharagpur for presentation and received a prototyping grant by the Indian Government’s Dept. of Science and Technology for his technological innovations aimed at benefitting the community.
+Fitting this combination of impacting society, research, and AI-oriented technological innovation perfectly with the organisation’s ideals, Ishaan serves as the Head of all Operations at SentiMate. -->
 
 ## Development
 

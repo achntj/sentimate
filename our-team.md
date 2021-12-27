@@ -6,7 +6,7 @@ permalink: /our-team/
 
 # Our Team
 
-To read more about the authors on our blog, visit [Writers](/writers)
+<!-- To read more about the authors on our blog, visit [Writers](/writers) -->
 
 <br>
 <div class="member">
@@ -14,9 +14,22 @@ To read more about the authors on our blog, visit [Writers](/writers)
     <h2>Achintya Jha</h2>
     <h3>Founder and Developer</h3>
     <p>
-        Achintya Jha is a class 12 student at Ahlcon International School, where he is studying the sciences along with Computer Science. He believes that innovation and ideas must be made accessible to all at no costs, and his projects are aimed at giving back to the society.
+        <a href="https://achintyajha.in">Achintya Jha</a> is a class 12 student at Ahlcon International School, where he is studying the sciences along with Computer Science. He believes that innovation and ideas must be made accessible to all at no costs, and his projects are aimed at giving back to the society.
         His experience with technology has allowed him to develop solutions at the intersection of tech and society. He has single-handedly developed <a href="https://talk.sentimate.ml">StuClan</a> and <a href="https://sentimate.ml">SentiMate</a> after close to 2 years of research and aims to make these platforms available to everyone, for which, he is working on scaling this project further.
     </p>
+</div>
+<hr>
+
+<div class="member">
+    <img src="/images/ishaan.jpeg">
+    <h2>Ishaan Shaurya Chamoli</h2>
+    <h3>Director of Operations</h3>
+    <p><a href="https://www.linkedin.com/in/ishaanchamoli">Ishaan</a> is a junior year student at Ridge Valley School from Gurgaon, India working towards combining his interest in Computer Science (especially Artificial Intelligence) and urge to help society with the limitless possibilities he believes AI can achieve.
+    He loves to innovate and bring his ideas to life with the hopes of making as much of an impact as possible!
+
+    His initial interest in solving problems faced across the world, including mental health, started as he was exposed to discussions and research on global problems combatted by the United Nations through over 4 years and 50+ conferences of participation in Model UN as a Delegate, Trainer, and Collegiate Chairperson. That’s when he began solving the problems that touched him most with the help of technology and artificial intelligence.
+
+</p>
 </div>
 <hr>
 
