@@ -550,7 +550,7 @@ a:active {
 
 .button {
   display: inline-block;
-  padding: 0.7em 1.4em;
+  padding: 0.5em 1em;
   margin-top: 1em;
   border-radius: 5px;
   box-sizing: border-box;
@@ -558,11 +558,16 @@ a:active {
 
   text-transform: uppercase;
   font-weight: 400;
-  color: var(--color-primary);
+  color: var(--color-bg);
   background-color: var(--color-accent);
   box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
   text-align: center;
   position: relative;
+}
+
+.button:hover {
+  color: var(--color-bg);
+  background-color: var(--color-accent-dark);
 }
 
 input.search-bar {
