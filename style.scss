@@ -14,6 +14,16 @@
 /* BASE RULES */
 /**************/
 
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
 html {
   font-size: 100%;
 }
@@ -85,7 +95,6 @@ ul em {
 a {
   text-underline-offset: 2px;
   cursor: pointer;
-  padding: 0 3px;
   border-radius: 3px;
   color: var(--color-text-secondary);
   text-decoration: none;
@@ -204,6 +213,7 @@ img + em {
 /*********************/
 
 .wrapper-masthead {
+  z-index: 100;
   max-width: 1300px;
   margin: 0 auto;
   background-color: var(--color-bg);
@@ -555,6 +565,7 @@ a:active {
   border-radius: 5px;
   box-sizing: border-box;
   text-decoration: none;
+  z-index: 0;
 
   text-transform: uppercase;
   font-weight: 400;
