@@ -24,10 +24,12 @@ permalink: /our-team/
     <img src="/images/ishaan.jpeg">
     <h2>Ishaan Shaurya Chamoli</h2>
     <h3>Director of Operations</h3>
-    <p><a href="https://www.linkedin.com/in/ishaanchamoli">Ishaan</a> is a junior year student at Ridge Valley School from Gurgaon, India working towards combining his interest in Computer Science (especially Artificial Intelligence) and urge to help society with the limitless possibilities he believes AI can achieve.
-    He loves to innovate and bring his ideas to life with the hopes of making as much of an impact as possible!
-
-    His initial interest in solving problems faced across the world, including mental health, started as he was exposed to discussions and research on global problems combatted by the United Nations through over 4 years and 50+ conferences of participation in Model UN as a Delegate, Trainer, and Collegiate Chairperson. That’s when he began solving the problems that touched him most with the help of technology and artificial intelligence.
+    <p><a href="https://www.linkedin.com/in/ishaanchamoli">Ishaan Shaurya Chamoli</a> is a junior year student at Ridge Valley, India working towards combining his interest in Computer Science, especially Artificial Intelligence and the limitless possibilities he believes it can achieve, with an urge to help society and make as much of an impact as possible.
+His initial interest in solving problems faced across the world, including mental health, started as he was exposed to discussions and research on global problems combatted by the United Nations through over 4 years and 50+ conferences of participation in Model UN as a Delegate, Trainer, and Collegiate Chairperson.
+<br />
+Ishaan has also been conferred with Intel’s Global AI Enthusiast Award as its International Top 10 and National Winner, been invited to the prestigious IIT Kharagpur for presentation, and received a prototyping grant by the Indian Government’s Dept. of Science and Technology for his multiple technological innovations on societal development.
+<br />
+Fitting this combination of impacting society, research, and AI-oriented technological innovation perfectly with the organisation’s ideals, Ishaan serves as the Head of all Operations at SentiMate.
 
 </p>
 </div>
