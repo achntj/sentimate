@@ -7,7 +7,7 @@ author: udbhav
 
 ![Personality](/images/blog/effect-of-media.jpeg)
 
-> "I think that also put a lot of pressure on me because I just felt in a way it was me against the world," - Naomi Osaka
+> "I think that also put a lot of pressure on me because I just felt in a way it was me against the world" - Naomi Osaka
 
 Osaka’s feelings back in 2018 resonate with the current landscape of relationships between sports and journalism. While contact sports like the NFL have the headache of dealing with pressing issues like concussions (pun intended), the sports world needs to give more recognition to the mental health of athletes.
 
