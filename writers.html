@@ -4,7 +4,7 @@ title: Our Writers
 permalink: /writers/
 ---
 
-<h1>Writers</h1>
+<h1>Content Writing Department</h1>
 
 <ul class="author-link">
   {% for author in site.writers %}
@@ -16,8 +16,10 @@ permalink: /writers/
       </h2>
     </li>
     <p>{{ author.content | markdownify }}</p>
-    For more information, see
-    <a href="{{ author.url }}">{{author.short_name}}'s page</a>
+    <p>
+      For more information, see
+      <a href="{{ author.url }}">{{author.short_name}}'s page.</a>
+    </p>
   </div>
 
   {% endfor %}

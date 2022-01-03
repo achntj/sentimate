@@ -7,9 +7,7 @@ layout: default
   <i>{{page.note}}</i>
   <p>
     {% assign author = site.writers | where: 'short_name', page.author | first
-    %} {% if author %}
-    <!-- -By <a href="{{ author.url }}">{{ author.name }}</a>  -->
-    -By <a>{{ author.name }}</a>
+    %} {% if author %} -By <a href="{{ author.url }}">{{ author.name }}</a>
     {% endif %}
   </p>
 

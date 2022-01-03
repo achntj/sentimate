@@ -6,7 +6,7 @@ permalink: /our-team/
 
 # Our Team
 
-<!-- To read more about the authors on our blog, visit [Writers](/writers) -->
+To read more about the authors on our blog, visit [Writers](/writers)
 
 <br>
 <div class="member">
@@ -73,3 +73,25 @@ Fitting this combination of impacting society, research, and AI-oriented technol
     </p>
 
 </div>
+
+<h1>Content Writing Department</h1>
+
+<ul class="author-link">
+  {% for author in site.writers %}
+  <div class="member">
+    <img src="{{author.pic}}" alt="" />
+    <li>
+      <h2>
+        <a href="{{ author.url }}">{{ author.name }} | {{ author.position }}</a>
+      </h2>
+    </li>
+    <p>{{ author.content | markdownify }}</p>
+    <p>
+      For more information, see
+      <a href="{{ author.url }}">{{author.short_name}}'s page.</a>
+    </p>
+  </div>
+
+{% endfor %}
+
+</ul>
