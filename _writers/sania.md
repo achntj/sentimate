@@ -2,9 +2,7 @@
 short_name: sania
 name: Sania Patel
 position: Writer
-pic: /images/writers/me.jpeg
+pic: /images/writers/sania.jpeg
 ---
 
-Achintya Jha is a class 12 student at Ahlcon International School, where he is studying the sciences along with Computer Science. He believes that innovation and ideas must be made accessible to all at no costs, and his projects are aimed at giving back to the society.
-
-His experience with technology has allowed him to develop solutions at the intersection of tech and society. He has single-handedly developed [StuClan](https://talk.sentimate.ml/) and [SentiMate](https://sentimate.ml/) after close to 2 years of research and aims to make these platforms available to everyone, for which, he is working on scaling this project further.
+Sania Patel is a bright, confident young woman capable of any challenge thrown her way. She takes great pride in her leadership skills and is committed to building a greater world. Sania exceeds expectations, as she works hard to refine her work to perfection. Sania has vast interests, from writing to playing tennis, however, her core hobbies center around the field of international relations and foreign policy. Overall, Sania is a driven, tough woman dedicated to helping her community and the world using her advanced skill set. Her commitment to perfection ensures that her work on the ‘Sentimate Blog’ is absolutely exceptional.
