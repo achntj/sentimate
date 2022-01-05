@@ -82,10 +82,6 @@ Fitting this combination of impacting society, research, and AI-oriented technol
         <a href="{{ author.url }}">{{ author.name }} | {{ author.position }}</a>
       </h2>
     <p>{{ author.content | markdownify }}</p>
-    <p>
-      For more information, see
-      <a href="{{ author.url }}">{{author.short_name}}'s page.</a>
-    </p>
   </div>
   <hr>
 {% endfor %}
