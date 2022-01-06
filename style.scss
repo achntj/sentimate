@@ -214,8 +214,8 @@ img + em {
 
 .wrapper-masthead {
   z-index: 100;
-  max-width: 1300px;
-  margin: 0 auto;
+  // max-width: 1300px;
+  // margin: 0 auto;
   background-color: var(--color-bg);
   border-bottom: 1px solid var(--color-highlight);
   position: fixed;
@@ -223,10 +223,12 @@ img + em {
   right: 0;
   left: 0;
   padding: 10px 20px 10px 20px;
+  filter: var(--tw-drop-shadow);
 }
 
 // .masthead {
-//   padding: 10px 0;
+//   max-width: 1300px;
+//   margin: 0 auto;
 // }
 
 .masthead a {

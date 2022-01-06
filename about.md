@@ -26,11 +26,11 @@ _~Achintya Jha_
 ![]({{ site.baseurl }}/images/me.jpeg)
 _Founder & Developer, Achintya Jha_
 
-[Achintya Jha](https://achintyajha.in) is a class 12 student at Ahlcon International School, where he is studying the sciences along with Computer Science. He believes that innovation and ideas must be made accessible to all at no costs, and he is working to accomplish the same. His experience with tech has allowed him to develop solutions in the intersection of tech and society. He has developed [StuClan](https://talk.sentimate.ml) and [SentiMate](https://sentimate.ml) after close to 2 years of research and aims to make these platforms available to everyone, for which, he is working on scaling this project further.
+[Achintya Jha](https://achintyajha.in) is a class 12 student at Ahlcon International School, where he is studying the sciences along with Computer Science. He believes that innovation and ideas must be made accessible to all at no costs, and he is working to accomplish the same. His experience with tech has allowed him to develop solutions in the intersection of tech and society. He has developed [StuClan](https://talk.sentimate.org) and [SentiMate](https://sentimate.org) after close to 2 years of research and aims to make these platforms available to everyone, for which, he is working on scaling this project further.
 
 He has worked as a research intern at companies like Tech Mahindra and has volunteered at organisations like SEETalks, HappyPlus, ZenOnco and many others. For him, these experiences have revealed various problems and stigmas in the society, including mental health, and have encouraged him to come up with innovative solutions.
 
-He would be beyond grateful, if you could [share](https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fsentimate.ml%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=Guys%20have%20a%20look%20at%20SentiMate!!%20It%20can%20detect%20depression%20using%20text!!&url=https%3A%2F%2Fsentimate.ml&via=achintyajha05) this website with your friends or send your feedback about the model and StuClan.
+He would be beyond grateful, if you could [share](https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fsentimate.org%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=Guys%20have%20a%20look%20at%20SentiMate!!%20It%20can%20detect%20depression%20using%20text!!&url=https%3A%2F%2Fsentimate.org&via=achintyajha05) this website with your friends or send your feedback about the model and StuClan.
 
 ---
 
