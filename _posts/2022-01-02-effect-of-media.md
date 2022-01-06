@@ -5,7 +5,7 @@ oneline: A piece about the toxic interaction between athletes, fans and the medi
 author: udbhav
 ---
 
-![Personality](/images/blog/effect-of-media.jpeg)
+![Mental Health of Athletes](/images/blog/effect-of-media.jpeg)
 
 > "I think that also put a lot of pressure on me because I just felt in a way it was me against the world" - Naomi Osaka
 
