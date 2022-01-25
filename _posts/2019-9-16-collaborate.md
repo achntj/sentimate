@@ -18,10 +18,10 @@ If you wish to contribute either by writing for this blog, getting feedback from
 Leave your email down below, and we'll get back to you without you filling the form!
 
 <div class="newsletter_contents noselect">
-            <form autocomplete="off" name="email-collab" method="POST" data-netlify="true" action="/success">
-                <input type="text" required class="email_input" placeholder="Your Name" name="name" id="bd-email" />
-                <input type="email" required class="email_input" placeholder="me@example.com" name="email" id="bd-email" />
-                <input type="hidden" value="1" name="embed" />
-                <button class="join-button" type="submit">Submit</button>
-            </form>
-        </div>
+    <form autocomplete="off" name="email-collab" method="POST" data-netlify="true" action="/success">
+        <input type="text" required class="email_input" placeholder="Your Name" name="name" id="bd-email" />
+        <input type="email" required class="email_input" placeholder="me@example.com" name="email" id="bd-email" />
+        <input type="hidden" value="1" name="embed" />
+        <button class="join-button" type="submit">Submit</button>
+    </form>
+</div>
