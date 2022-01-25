@@ -627,10 +627,58 @@ input.search-bar {
   width: calc(100% - 80px);
 }
 
-button {
-  color: var(--color-text);
+.email {
+  display: block;
+}
+
+.email_input {
+  font-size: 100%;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: $darkGray;
+  background: #fff;
+  box-shadow: 0 5px 12px -2px rgba(0, 0, 0, 0.4);
+  transform: none;
+  box-sizing: border-box;
   border: 0;
-  border-radius: 5px;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 0;
+  text-decoration: none;
+}
+
+@media (max-width: 250px) {
+  .email_input {
+    width: 100%;
+  }
+}
+
+.join-button {
+  font-size: 100%;
+  display: inline-block;
+  transform: none;
+  box-sizing: border-box;
+  border: 0;
+  outline: none;
+  box-shadow: 0 5px 12px -2px rgba(0, 0, 0, 0.4);
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: $white;
+  cursor: pointer;
+  background-color: var(--color-accent-secondary);
+  border-radius: 3px;
+  &:hover,
+  &:active {
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+    text-decoration-color: $white;
+  }
+  @include mobile {
+    margin-top: 20px;
+  }
 }
 
 .container-new {
@@ -741,7 +789,7 @@ input:checked + .slider:before {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 660px) {
   .hero {
     height: auto;
     padding: 0;
