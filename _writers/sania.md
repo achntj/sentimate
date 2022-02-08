@@ -1,7 +1,7 @@
 ---
 short_name: sania
 name: Sania Patel
-position: Writer
+position: Chief Editor & Writer
 pic: /images/writers/sania.jpeg
 ---
 
