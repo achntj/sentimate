@@ -5,7 +5,7 @@ oneline: Discover the five main ways in which artificial intelligence is advanci
 author: sania
 ---
 
-![Students and Mental Health](/images/blog/ai-transform.jpeg)
+![Artificial Intelligence](/images/blog/ai-transform.jpeg)
 
 According to Britannica, artificial intelligence, or AI, is the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings. AI has the ability to learn, reason, problem-solve and recognize and respond to languages and various perceptions.
 

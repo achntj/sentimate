@@ -5,7 +5,7 @@ oneline: As COVID-19 worsened, school and work abandoned traditional settings. A
 author: sania
 ---
 
-![Students and Mental Health](/images/blog/online-learning.jpeg)
+![Online Learning](/images/blog/online-learning.jpeg)
 
 With the emergence of the COVID-19 pandemic, online learning has become second nature to many students. The virus first appeared on December 12, 2019, and has since exploded into a full-fledged pandemic equipped with social-distancing rules and stay-at-home orders. Shortly after, other countries began to experience the effects of the new virus. The United States, in particular, declared the emergence of the COVID-19 pandemic on March 11, 2019, and all public spaces shut down immediately.
 
