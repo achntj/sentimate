@@ -5,7 +5,7 @@ oneline: Discover how child bearing can cause depression, anxiety, and other men
 author: sania
 ---
 
-![OCD](/images/blog/child-bearing.jpeg)
+![Effects of Childbearing](/images/blog/child-bearing.jpeg)
 
 Mental health illnesses are often mentioned in casual conversations in modern times. However, there are very few focuses on the mere causes of mental health issues, despite the staggering statistics. A study conducted by Mental Health America, recorded, in 2021, that over forty-seven million Americans were currently suffering from a mental illness. 4.55 percent of US Americans were experiencing severe mental illness, meaning some or all physical capabilities had been hindered.
 
