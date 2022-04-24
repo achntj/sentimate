@@ -55,6 +55,6 @@ Mental disorders describe a state in which a person’s thinking, feeling, mood,
 
 ## Citations
 
-- [10 of the Rarest Mental Health Disorders | Private Therapy Clinic](https://theprivatetherapyclinic.co.uk/blog/10-of-the-rarest-mental-health-disorders/)
+- [10 of the Rarest Mental Health Disorders \| Private Therapy Clinic](https://theprivatetherapyclinic.co.uk/blog/10-of-the-rarest-mental-health-disorders/)
 
-- [What Is Mental Health? | MentalHealth.gov](https://www.mentalhealth.gov/basics/what-is-mental-health)
+- [What Is Mental Health? \| MentalHealth.gov](https://www.mentalhealth.gov/basics/what-is-mental-health)
