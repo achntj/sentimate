@@ -5,7 +5,7 @@ oneline: Learn about the top 10 rarest mental illnesses.
 author: sania
 ---
 
-![Sanvello](/images/blog/rare.jpeg)
+![Rare Mental Illnesses](/images/blog/rare.jpeg)
 
 Mental disorders describe a state in which a person’s thinking, feeling, mood, and behavior is affected. Mental illnesses are the corresponding health conditions involving changes in emotion, thinking, or behavior. These effects can be short-term or chronic, depending on the type of disorder and treatment received. According to the American Psychiatric Association, nearly one in five (approximately 19 percent) of U.S. adults experience some form of mental illness. Of that number, another 4.1 percent suffer from a serious mental illness. Serious mental illnesses include mental, behavioral, or emotional disorders that result in serious functional impairment, which substantially interferes with or limits the performance of daily activities.
 
@@ -55,10 +55,6 @@ Mental disorders describe a state in which a person’s thinking, feeling, mood,
 
 ## Citations
 
-- [Top AI-Based Apps to Support Mental Health](https://industrywired.com/top-ai-based-apps-to-support-your-mental-health-in-2021/)
+- [10 of the Rarest Mental Health Disorders | Private Therapy Clinic](https://theprivatetherapyclinic.co.uk/blog/10-of-the-rarest-mental-health-disorders/)
 
-- [Sanvello](https://www.sanvello.com/)
-
-- [What Is Mental Health?](https://www.mentalhealth.gov/basics/what-is-mental-health)
-
-- [What Is Artificial Intelligence?](https://www.oracle.com/artificial-intelligence/what-is-ai/)
+- [What Is Mental Health? | MentalHealth.gov](https://www.mentalhealth.gov/basics/what-is-mental-health)
