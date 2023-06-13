@@ -9,7 +9,7 @@ name: SentiMate | Tech for Mental Health
 description: Website and blog of Sentimate, a natural language processing based solution for detecting depression. Join our ever-growing community of 500+ members!!
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/achintyajha/sentimate/master/images/smile.png
+avatar: https://raw.githubusercontent.com/achntj/sentimate/master/images/smile.png
 
 # Include redirects
 include: [_redirects]
