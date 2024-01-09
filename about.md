@@ -26,7 +26,7 @@ _~Achintya Jha_
 ![]({{ site.baseurl }}/images/me.jpeg)
 _Founder & Developer, Achintya Jha_
 
-[Achintya Jha](https://achintyajha.com) is a class 12 student at Ahlcon International School, where he is studying the sciences along with Computer Science. He believes that innovation and ideas must be made accessible to all at no costs, and he is working to accomplish the same. His experience with tech has allowed him to develop solutions in the intersection of tech and society. He has developed [StuClan](https://talk.sentimate.org) and [SentiMate](https://sentimate.org) after close to 2 years of research and aims to make these platforms available to everyone, for which, he is working on scaling this project further.
+[Achintya Jha](https://achintyajha.com) is a class 12 student at Ahlcon International School, where he is studying the sciences along with Computer Science. He believes that innovation and ideas must be made accessible to all at no costs, and he is working to accomplish the same. His experience with tech has allowed him to develop solutions in the intersection of tech and society. He has developed [StuClan](https://community.sentimate.org) and [SentiMate](https://sentimate.org) after close to 2 years of research and aims to make these platforms available to everyone, for which, he is working on scaling this project further.
 
 He has worked as a research intern at companies like Tech Mahindra and has volunteered at organisations like SEETalks, HappyPlus, ZenOnco and many others. For him, these experiences have revealed various problems and stigmas in the society, including mental health, and have encouraged him to come up with innovative solutions.
 

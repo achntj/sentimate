@@ -13,7 +13,7 @@ permalink: /our-team/
     <h3>Founder and Developer</h3>
     <p>
         <a href="https://achintyajha.com">Achintya Jha</a> is a class 12 student at Ahlcon International School, where he is studying the sciences along with Computer Science. He believes that innovation and ideas must be made accessible to all at no costs, and his projects are aimed at giving back to the society.
-        His experience with technology has allowed him to develop solutions at the intersection of tech and society. He has single-handedly developed <a href="https://talk.sentimate.org">StuClan</a> and <a href="https://sentimate.org">SentiMate</a> after close to 2 years of research and aims to make these platforms available to everyone, for which, he is working on scaling this project further.
+        His experience with technology has allowed him to develop solutions at the intersection of tech and society. He has single-handedly developed <a href="https://community.sentimate.org">StuClan</a> and <a href="https://sentimate.org">SentiMate</a> after close to 2 years of research and aims to make these platforms available to everyone, for which, he is working on scaling this project further.
     </p>
 </div>
 <hr>
