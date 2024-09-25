@@ -1,4 +1,0 @@
-# http and https need separate rules if you don’t force_ssl!
-
-http://sentimate.ml/* https://sentimate.org 301!
-https://sentimate.ml/* https://sentimate.org 301!
