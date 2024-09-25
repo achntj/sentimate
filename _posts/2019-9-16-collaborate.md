@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Collaborate / Contribute
+title: "Collaborate / Contribute"
 oneline: Learn more on how to collaborate with us!
 permalink: /collaborate/
 ---
